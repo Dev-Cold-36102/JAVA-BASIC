@@ -116,7 +116,12 @@ public class ConvertNumbertoString {
         onedigit(firstnumber);
         solution += " hundred";
         int secondnumber = number % 100;
-        lessonehundred(secondnumber / 10, secondnumber % 10);
+        if (secondnumber > 9 && secondnumber < 20) {
+            twodigits(secondnumber % 10);
+        } else {
+            lessonehundred(secondnumber / 10, secondnumber % 10);
+        }
+
     }
 
     public static void run() {
