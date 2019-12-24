@@ -6,7 +6,7 @@ public class PrimeNumber {
         System.out.print("please enter the number:");
         int number = sc.nextInt();
         int count = 0;
-        for (int i = 1; i < Math.sqrt(number); i++) {
+        for (int i = 1; i <= Math.sqrt(number); i++) {
             if (number % i == 0) {
                 count++;
             }
