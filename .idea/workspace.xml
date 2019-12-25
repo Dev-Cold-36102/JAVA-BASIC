@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fac9c7-369a-4da1-a594-4623bc1f97ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SumOfDiagonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CountChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MineSweeper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.CoutPupil">
+  <component name="RunManager" selected="Application.CountChar">
+    <configuration name="CountChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountChar" />
+      <module name="JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CoutPupil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoutPupil" />
       <module name="JAVA" />
@@ -40,22 +48,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeArr" />
+    <configuration name="MaxOfArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxOfArr" />
       <module name="JAVA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfColum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumOfColum" />
-      <module name="JAVA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumOfColumn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumOfColumn" />
+    <configuration name="MineSweeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MineSweeper" />
       <module name="JAVA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,19 +70,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeArr" />
-      <item itemvalue="Application.SumOfColum" />
-      <item itemvalue="Application.SumOfColumn" />
       <item itemvalue="Application.SumOfDiagonal" />
       <item itemvalue="Application.CoutPupil" />
+      <item itemvalue="Application.MineSweeper" />
+      <item itemvalue="Application.MaxOfArr" />
+      <item itemvalue="Application.CountChar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountChar" />
+        <item itemvalue="Application.MaxOfArr" />
+        <item itemvalue="Application.MineSweeper" />
         <item itemvalue="Application.CoutPupil" />
         <item itemvalue="Application.SumOfDiagonal" />
-        <item itemvalue="Application.SumOfColumn" />
-        <item itemvalue="Application.SumOfColum" />
-        <item itemvalue="Application.MergeArr" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +110,8 @@
       <workItem from="1577154481455" duration="913000" />
       <workItem from="1577155405187" duration="21014000" />
       <workItem from="1577193229060" duration="2008000" />
-      <workItem from="1577235694821" duration="11285000" />
+      <workItem from="1577235694821" duration="15545000" />
+      <workItem from="1577261225675" duration="5204000" />
     </task>
     <task id="LOCAL-00001" summary="add file">
       <created>1577095745224</created>
@@ -286,7 +288,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577249081203</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add file">
+      <created>1577253910915</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1577253910915</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add file">
+      <created>1577254070661</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1577254070661</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,30 +321,30 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1110" y="338" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577154682214" />
-    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2" timestamp="1577253910863">
+    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2" timestamp="1577254070627">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1577253910863" />
+    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1577254070627" />
     <state x="374" y="176" width="1536" height="872" key="DiffContextDialog" timestamp="1577101470478">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="374" y="176" width="1536" height="872" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577101470478" />
-    <state width="914" height="258" key="GridCell.Tab.0.bottom" timestamp="1577254045109">
+    <state width="904" height="257" key="GridCell.Tab.0.bottom" timestamp="1577267218963">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="258" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577254045109" />
-    <state width="914" height="258" key="GridCell.Tab.0.center" timestamp="1577254045109">
+    <state width="904" height="257" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577267218963" />
+    <state width="904" height="257" key="GridCell.Tab.0.center" timestamp="1577267218963">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="258" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577254045109" />
-    <state width="914" height="258" key="GridCell.Tab.0.left" timestamp="1577254045109">
+    <state width="904" height="257" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577267218963" />
+    <state width="904" height="257" key="GridCell.Tab.0.left" timestamp="1577267218962">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="258" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577254045109" />
-    <state width="914" height="258" key="GridCell.Tab.0.right" timestamp="1577254045109">
+    <state width="904" height="257" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577267218962" />
+    <state width="904" height="257" key="GridCell.Tab.0.right" timestamp="1577267218963">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="258" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577254045109" />
+    <state width="904" height="257" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577267218963" />
     <state width="894" height="343" key="GridCell.Tab.1.bottom" timestamp="1577155190187">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -349,10 +365,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="898" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1577098884352" />
-    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1577253914867">
+    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1577254075623">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1577253914867" />
+    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1577254075623" />
     <state x="1060" y="125" width="760" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577095724666">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -369,9 +385,9 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1085" y="149" width="710" height="807" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1577095264252" />
-    <state x="1094" y="254" key="run.anything.popup" timestamp="1577155366199">
+    <state x="1094" y="254" key="run.anything.popup" timestamp="1577258589599">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1094" y="254" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1577155366199" />
+    <state x="1094" y="254" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1577258589599" />
   </component>
 </project>
