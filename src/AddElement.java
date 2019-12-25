@@ -35,5 +35,6 @@ public class AddElement {
         for (int i = 0; i < newarr.length; i++) {
             System.out.print(newarr[i] + " ");
         }
+
     }
 }
