@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fac9c7-369a-4da1-a594-4623bc1f97ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SumOfColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumOfDiagonal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +32,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.SumOfColumn">
+  <component name="RunManager" selected="Application.SumOfDiagonal">
     <configuration name="AddElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddElement" />
-      <module name="JAVA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DeleteElement" />
       <module name="JAVA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,20 +61,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumOfDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumOfDiagonal" />
+      <module name="JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.DeleteElement" />
       <item itemvalue="Application.AddElement" />
       <item itemvalue="Application.MergeArr" />
       <item itemvalue="Application.SumOfColum" />
       <item itemvalue="Application.SumOfColumn" />
+      <item itemvalue="Application.SumOfDiagonal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOfDiagonal" />
         <item itemvalue="Application.SumOfColumn" />
         <item itemvalue="Application.SumOfColum" />
         <item itemvalue="Application.MergeArr" />
         <item itemvalue="Application.AddElement" />
-        <item itemvalue="Application.DeleteElement" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +109,7 @@
       <workItem from="1577154481455" duration="913000" />
       <workItem from="1577155405187" duration="21014000" />
       <workItem from="1577193229060" duration="2008000" />
-      <workItem from="1577235694821" duration="9088000" />
+      <workItem from="1577235694821" duration="11285000" />
     </task>
     <task id="LOCAL-00001" summary="add file">
       <created>1577095745224</created>
@@ -280,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577241124611</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add file">
+      <created>1577249081203</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1577249081203</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,30 +305,30 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1110" y="338" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577154682214" />
-    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2" timestamp="1577249051886">
+    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2" timestamp="1577249081164">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1577249051886" />
+    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1577249081164" />
     <state x="374" y="176" width="1536" height="872" key="DiffContextDialog" timestamp="1577101470478">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="374" y="176" width="1536" height="872" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577101470478" />
-    <state width="914" height="258" key="GridCell.Tab.0.bottom" timestamp="1577248905166">
+    <state width="914" height="258" key="GridCell.Tab.0.bottom" timestamp="1577253882128">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="258" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577248905166" />
-    <state width="914" height="258" key="GridCell.Tab.0.center" timestamp="1577248905165">
+    <state width="914" height="258" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577253882128" />
+    <state width="914" height="258" key="GridCell.Tab.0.center" timestamp="1577253882128">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="258" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577248905165" />
-    <state width="914" height="258" key="GridCell.Tab.0.left" timestamp="1577248905165">
+    <state width="914" height="258" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577253882128" />
+    <state width="914" height="258" key="GridCell.Tab.0.left" timestamp="1577253882128">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="258" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577248905165" />
-    <state width="914" height="258" key="GridCell.Tab.0.right" timestamp="1577248905165">
+    <state width="914" height="258" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577253882128" />
+    <state width="914" height="258" key="GridCell.Tab.0.right" timestamp="1577253882128">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="258" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577248905165" />
+    <state width="914" height="258" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577253882128" />
     <state width="894" height="343" key="GridCell.Tab.1.bottom" timestamp="1577155190187">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -343,10 +349,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="898" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1577098884352" />
-    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1577241131702">
+    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1577249087878">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1577241131702" />
+    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1577249087878" />
     <state x="1060" y="125" width="760" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577095724666">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
