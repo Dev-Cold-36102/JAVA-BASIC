@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fac9c7-369a-4da1-a594-4623bc1f97ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DeleteElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +32,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.DeleteElement">
+  <component name="RunManager" selected="Application.AddElement">
+    <configuration name="AddElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AddElement" />
+      <module name="JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConvertTemp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConvertTemp" />
       <module name="JAVA" />
@@ -54,13 +61,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxOfArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxOfArr" />
-      <module name="JAVA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinOfArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MinOfArr" />
       <module name="JAVA" />
@@ -69,19 +69,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaxOfArr" />
       <item itemvalue="Application.DrawMore" />
       <item itemvalue="Application.ConvertTemp" />
       <item itemvalue="Application.MinOfArr" />
       <item itemvalue="Application.DeleteElement" />
+      <item itemvalue="Application.AddElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddElement" />
         <item itemvalue="Application.DeleteElement" />
         <item itemvalue="Application.DrawMore" />
         <item itemvalue="Application.MinOfArr" />
         <item itemvalue="Application.ConvertTemp" />
-        <item itemvalue="Application.MaxOfArr" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +109,7 @@
       <workItem from="1577154481455" duration="913000" />
       <workItem from="1577155405187" duration="21014000" />
       <workItem from="1577193229060" duration="2008000" />
+      <workItem from="1577235694821" duration="2881000" />
     </task>
     <task id="LOCAL-00001" summary="add file">
       <created>1577095745224</created>
@@ -283,30 +284,30 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1110" y="338" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577154682214" />
-    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2" timestamp="1577185610419">
+    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2" timestamp="1577199632836">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1577185610419" />
+    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1577199632836" />
     <state x="374" y="176" width="1536" height="872" key="DiffContextDialog" timestamp="1577101470478">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="374" y="176" width="1536" height="872" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577101470478" />
-    <state width="884" height="258" key="GridCell.Tab.0.bottom" timestamp="1577199606587">
+    <state width="874" height="258" key="GridCell.Tab.0.bottom" timestamp="1577238744687">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="884" height="258" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577199606587" />
-    <state width="884" height="258" key="GridCell.Tab.0.center" timestamp="1577199606587">
+    <state width="874" height="258" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577238744687" />
+    <state width="874" height="258" key="GridCell.Tab.0.center" timestamp="1577238744687">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="884" height="258" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577199606587" />
-    <state width="884" height="258" key="GridCell.Tab.0.left" timestamp="1577199606587">
+    <state width="874" height="258" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577238744687" />
+    <state width="874" height="258" key="GridCell.Tab.0.left" timestamp="1577238744686">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="884" height="258" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577199606587" />
-    <state width="884" height="258" key="GridCell.Tab.0.right" timestamp="1577199606587">
+    <state width="874" height="258" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577238744686" />
+    <state width="874" height="258" key="GridCell.Tab.0.right" timestamp="1577238744687">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="884" height="258" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577199606587" />
+    <state width="874" height="258" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577238744687" />
     <state width="894" height="343" key="GridCell.Tab.1.bottom" timestamp="1577155190187">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -327,10 +328,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="898" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1577098884352" />
-    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1577185614693">
+    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1577199638229">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1577185614693" />
+    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1577199638229" />
     <state x="1060" y="125" width="760" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577095724666">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
