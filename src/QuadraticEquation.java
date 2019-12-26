@@ -10,22 +10,22 @@ public class QuadraticEquation {
         this.c = c;
     }
 
-    public double getDiscriminant() {
+     double getDiscriminant() {
         double delta = Math.pow(b, 2) - 4 * a * c;
         return delta;
     }
 
-    public void getRoot1(double delta) {
+     void getRoot1(double delta) {
         double root1 = ((-b) + Math.sqrt(delta) / (2 * a));
         System.out.print("root 1:" + root1);
     }
 
-    public void getRoot2(double delta) {
+     void getRoot2(double delta) {
         double root2 = ((-b) - Math.sqrt(delta) / (2 * a));
         System.out.print("root 2:" + root2);
     }
 
-    public void getRoot() {
+     void getRoot() {
         double root = ((-b) / (2 * a));
         System.out.print("root :" + root);
     }

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fac9c7-369a-4da1-a594-4623bc1f97ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/QuadraticEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StopWatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuadraticEquation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +39,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuadraticEquation">
-    <configuration name="CountChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountChar" />
-      <module name="JAVA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxOfArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxOfArr" />
-      <module name="JAVA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StopWatch">
     <configuration name="QuadraticEquation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QuadraticEquation" />
       <module name="JAVA" />
@@ -68,6 +54,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StopWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StopWatch" />
+      <module name="JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Student" />
       <module name="JAVA" />
@@ -75,20 +68,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SystemTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SystemTime" />
+      <module name="JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MaxOfArr" />
-      <item itemvalue="Application.CountChar" />
       <item itemvalue="Application.Rectangle" />
       <item itemvalue="Application.Student" />
       <item itemvalue="Application.QuadraticEquation" />
+      <item itemvalue="Application.SystemTime" />
+      <item itemvalue="Application.StopWatch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StopWatch" />
+        <item itemvalue="Application.SystemTime" />
         <item itemvalue="Application.QuadraticEquation" />
         <item itemvalue="Application.Student" />
         <item itemvalue="Application.Rectangle" />
-        <item itemvalue="Application.CountChar" />
-        <item itemvalue="Application.MaxOfArr" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +118,7 @@
       <workItem from="1577193229060" duration="2008000" />
       <workItem from="1577235694821" duration="15545000" />
       <workItem from="1577261225675" duration="5871000" />
-      <workItem from="1577330137616" duration="8350000" />
+      <workItem from="1577330137616" duration="10553000" />
     </task>
     <task id="LOCAL-00001" summary="add file">
       <created>1577095745224</created>
@@ -323,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577344313236</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add file">
+      <created>1577357441548</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1577357441548</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,30 +353,30 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1171" y="409" width="518" height="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1920.1053@0.27.1920.1053" timestamp="1577347096846" />
-    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2" timestamp="1577344313121">
+    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2" timestamp="1577357441497">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1577344313121" />
+    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1577357441497" />
     <state x="374" y="176" width="1536" height="872" key="DiffContextDialog" timestamp="1577101470478">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="374" y="176" width="1536" height="872" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577101470478" />
-    <state width="904" height="257" key="GridCell.Tab.0.bottom" timestamp="1577357309349">
+    <state width="821" height="257" key="GridCell.Tab.0.bottom" timestamp="1577359473468">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="904" height="257" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577357309349" />
-    <state width="904" height="257" key="GridCell.Tab.0.center" timestamp="1577357309349">
+    <state width="821" height="257" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577359473468" />
+    <state width="821" height="257" key="GridCell.Tab.0.center" timestamp="1577359473467">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="904" height="257" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577357309349" />
-    <state width="904" height="257" key="GridCell.Tab.0.left" timestamp="1577357309348">
+    <state width="821" height="257" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577359473467" />
+    <state width="821" height="257" key="GridCell.Tab.0.left" timestamp="1577359473467">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="904" height="257" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577357309348" />
-    <state width="904" height="257" key="GridCell.Tab.0.right" timestamp="1577357309349">
+    <state width="821" height="257" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577359473467" />
+    <state width="821" height="257" key="GridCell.Tab.0.right" timestamp="1577359473467">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="904" height="257" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577357309349" />
+    <state width="821" height="257" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577359473467" />
     <state width="894" height="343" key="GridCell.Tab.1.bottom" timestamp="1577155190187">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -390,10 +397,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="898" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1577098884352" />
-    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1577344317970">
+    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1577357446994">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1577344317970" />
+    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1577357446994" />
     <state x="1060" y="125" width="760" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577095724666">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
