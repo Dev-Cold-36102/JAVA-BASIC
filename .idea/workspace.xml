@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fac9c7-369a-4da1-a594-4623bc1f97ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Point/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Point/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kethua/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kethua/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +39,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Point3D">
+  <component name="RunManager" selected="Application.Triangle">
     <configuration name="Cirlce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Circle.Cirlce" />
       <module name="JAVA" />
@@ -57,13 +54,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Palindrome" />
-      <module name="JAVA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Point3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Point.Point3D" />
       <module name="JAVA" />
@@ -71,27 +61,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Student" />
+    <configuration name="Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kethua.Shape" />
+      <module name="JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Triangle" />
       <module name="JAVA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Student" />
-      <item itemvalue="Application.Palindrome" />
       <item itemvalue="Application.Cirlce" />
       <item itemvalue="Application.Cylinder" />
       <item itemvalue="Application.Point3D" />
+      <item itemvalue="Application.Shape" />
+      <item itemvalue="Application.Triangle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Triangle" />
+        <item itemvalue="Application.Shape" />
         <item itemvalue="Application.Point3D" />
         <item itemvalue="Application.Cylinder" />
         <item itemvalue="Application.Cirlce" />
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +128,7 @@
       <workItem from="1577927723897" duration="42000" />
       <workItem from="1577927787064" duration="326000" />
       <workItem from="1577928274021" duration="81000" />
-      <workItem from="1577928375388" duration="12441000" />
+      <workItem from="1577928375388" duration="15969000" />
     </task>
     <task id="LOCAL-00001" summary="add file">
       <created>1577095745224</created>
@@ -350,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577359507551</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add file">
+      <created>1578027288022</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1578027288022</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,30 +377,30 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1171" y="409" width="518" height="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1920.1053@0.27.1920.1053" timestamp="1577347096846" />
-    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2" timestamp="1577775429616">
+    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2" timestamp="1578027287934">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1577775429616" />
+    <state x="983" y="27" width="860" height="1028" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1578027287934" />
     <state x="374" y="176" width="1536" height="872" key="DiffContextDialog" timestamp="1577101470478">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="374" y="176" width="1536" height="872" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577101470478" />
-    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1578027252584">
+    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1578033331490">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1578027252584" />
-    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1578027252583">
+    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1578033331490" />
+    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1578033331490">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1578027252583" />
-    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1578027252583">
+    <state width="914" height="278" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1578033331490" />
+    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1578033331490">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1578027252583" />
-    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1578027252584">
+    <state width="914" height="278" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1578033331490" />
+    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1578033331490">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1578027252584" />
+    <state width="914" height="278" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1578033331490" />
     <state width="894" height="343" key="GridCell.Tab.1.bottom" timestamp="1577155190187">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -417,10 +421,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="898" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1577098884352" />
-    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1577775434101">
+    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578027295228">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1577775434101" />
+    <state x="1035" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1578027295228" />
     <state x="1060" y="125" width="760" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577095724666">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

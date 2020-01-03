@@ -29,10 +29,7 @@ public class Shape {
 
     @Override
     public String toString() {
-        return "A Shape with color of "
-                + getColor()
-                + " and "
-                + (isFilled() ? "filled" : "not filled");
+        return "A Shape with color of "+ getColor() + " and " + (isFilled() ? "filled" : "not filled");
     }
     public static void main(String[] args) {
         Shape shape = new Shape();
